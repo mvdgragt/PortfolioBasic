@@ -12,7 +12,7 @@ function ContactMe() {
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
-          <p><a href="mailto:michiel@vandergragt.eu">Email</a></p>
+          <p><a href="mailto:michiel@vandergragt.eu">michiel@vandergragt.eu</a></p>
         </div>
         <div className="contact-info-container">
           <img
@@ -27,3 +27,19 @@ function ContactMe() {
 }
 
 export default ContactMe
+
+{/* 
+
+<div className="btn-container">
+<button
+  className="btn btn-color-2"
+  onClick={() => {window.open('./assets/resume-example.pdf')}}
+>
+  Download CV
+</button>
+<button className="btn btn-color-1" onClick={() => {"location.href='./#contact'"}}>
+  Contact Info
+</button>
+</div> 
+
+*/}
