@@ -1,153 +1,49 @@
 import React from 'react'
+import data from "../../data/index.json"
 
 function MySkills() {
   return (
     <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./img/checkmark.png"
+    <p className="section__text__p1">Explore My</p>
+    <h1 className="title">Experience</h1>
+    <div className="experience-details-container">
+      <div className="about-containers">
+        <div className="details-container">
+          <h2 className="experience-sub-title">Frontend Development</h2>
+          <div className="article-container">
+          {data?.frontend_skills?.map((item,index) => (
+            <article key={index}>
+                      <img
+                src={item.src}
                 alt="Experience icon"
-                class="icon"
+                className="icon"
               />
               <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
+                <h3>{item.skill}</h3>
+                <p>{item.experience}</p>
               </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>CSS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>SASS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>TypeScript</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Material UI</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
+            </article>  
+            ))
+            }
           </div>
         </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Backend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./img/checkmark.png"
+        <div className="details-container">
+          <h2 className="experience-sub-title">Backend Development</h2>
+          <div className="article-container">
+          {data?.backend_skills?.map((item,index) => (
+            <article key={index}>
+                      <img
+                src={item.src}
                 alt="Experience icon"
-                class="icon"
+                className="icon"
               />
               <div>
-                <h3>PostgreSQL</h3>
-                <p>Intermediate</p>
+                <h3>{item.skill}</h3>
+                <p>{item.experience}</p>
               </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Node JS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>PhpMysql</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Express JS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./img/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Git2</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-
+            </article>  
+            ))
+            }
           </div>
         </div>
       </div>
@@ -155,8 +51,8 @@ function MySkills() {
     <img
       src="./img/arrow.png"
       alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'"
+      className="icon arrow"
+      onClick={() => {"location.href='./#projects'"}}
     />
   </section>  )
 }

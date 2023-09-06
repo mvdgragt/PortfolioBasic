@@ -13,11 +13,11 @@ function HeroSection() {
       <div className="btn-container">
         <button
           className="btn btn-color-2"
-          onclick="window.open('./assets/resume-example.pdf')"
+          onClick={() => {window.open('./assets/resume-example.pdf')}}
         >
           Download CV
         </button>
-        <button className="btn btn-color-1" onclick="location.href='./#contact'">
+        <button className="btn btn-color-1" onClick={() => {"location.href='./#contact'"}}>
           Contact Info
         </button>
       </div>
@@ -26,13 +26,13 @@ function HeroSection() {
           src="./img/linkedin.png"
           alt="My LinkedIn profile"
           className="icon"
-          onclick="location.href='https://www.linkedin.com/in/michielvandergragt/'"
+          onClick={() => {location.href='https://www.linkedin.com/in/michielvandergragt/'}}
         />
         <img
           src="./img/github.png"
           alt="My Github profile"
           className="icon"
-          onclick="location.href='https://github.com/'"
+          onClick={() => {location.href='https://github.com/'}}
         />
       </div>
     </div>

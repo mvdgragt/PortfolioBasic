@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <>
        <nav id="desktop-nav">
-      <div class="logo">Michiel vd Gragt</div>
+      <div className="logo">Michiel vd Gragt</div>
       <div>
-        <ul class="nav-links">
+        <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -15,18 +15,18 @@ function Navbar() {
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+      <div className="logo">John Doe</div>
+      <div className="hamburger-menu">
+        <div className="hamburger-icon" onClick={() => {"toggleMenu()"}}>
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <div className="menu-links">
+          <li><a href="#about" onClick={() => {"toggleMenu()"}}>About</a></li>
+          <li><a href="#experience" onClick={() => {"toggleMenu()"}}>Experience</a></li>
+          <li><a href="#projects" onClick={() => {"toggleMenu()"}}>Projects</a></li>
+          <li><a href="#contact" onClick={() => {"toggleMenu()"}}>Contact</a></li>
         </div>
       </div>
     </nav>
