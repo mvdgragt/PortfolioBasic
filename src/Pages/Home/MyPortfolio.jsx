@@ -15,17 +15,17 @@ function MyPortfolio() {
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">School Applications</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/'"}}
+                onClick={() => {window.open('https://github.com/mvdgragt/SchoolApplications')}}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/'"}}
+                onClick={() => {window.open('https://schoolapplications.netlify.app/')}}
               >
                 Live Demo
               </button>
