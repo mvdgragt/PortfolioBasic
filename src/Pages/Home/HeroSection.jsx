@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section id="profile">
     <div className="section__pic-container">
-      <img src="./img/Michiel_profil.png" alt="John Doe profile picture" />
+      <img src="./img/Michiel_profil4.png" alt="John Doe profile picture" />
     </div>
     <div className="section__text">
       <p className="section__text__p1">Hello, I'm</p>
@@ -17,7 +17,7 @@ function HeroSection() {
         >
           Download CV
         </button>
-        <button className="btn btn-color-1" onClick={() => {"location.href='./#contact'"}}>
+        <button className="btn btn-color-1" onClick={() => {window.location.href='#contact'}}>
           Contact Info
         </button>
       </div>
