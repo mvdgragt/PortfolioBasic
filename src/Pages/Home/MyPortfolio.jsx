@@ -10,7 +10,7 @@ function MyPortfolio() {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./img/project-1.png"
+                src="./img/schoolapplications.png"
                 alt="Project 1"
                 className="project-img"
               />
