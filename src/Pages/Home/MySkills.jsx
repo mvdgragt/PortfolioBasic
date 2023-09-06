@@ -89,7 +89,7 @@ function MySkills() {
               />
               <div>
                 <h3>PostgreSQL</h3>
-                <p>Basic</p>
+                <p>Intermediate</p>
               </div>
             </article>
             <article>
@@ -100,6 +100,28 @@ function MySkills() {
               />
               <div>
                 <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>PhpMysql</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
                 <p>Intermediate</p>
               </div>
             </article>
@@ -121,10 +143,11 @@ function MySkills() {
                 class="icon"
               />
               <div>
-                <h3>Git</h3>
+                <h3>Git2</h3>
                 <p>Intermediate</p>
               </div>
             </article>
+
           </div>
         </div>
       </div>

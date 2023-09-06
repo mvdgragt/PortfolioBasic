@@ -8,8 +8,8 @@ function HeroSection() {
     </div>
     <div className="section__text">
       <p className="section__text__p1">Hello, I'm</p>
-      <h1 className="title">John Doe</h1>
-      <p className="section__text__p2">Frontend Developer</p>
+      <h1 className="title">Michiel vd Gragt</h1>
+      <p className="section__text__p2">Fullstack Developer</p>
       <div className="btn-container">
         <button
           className="btn btn-color-2"
