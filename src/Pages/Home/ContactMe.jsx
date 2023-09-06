@@ -12,7 +12,7 @@ function ContactMe() {
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
-          <p><a href="mailto:michiel@vandergragt.eu">michiel@vandergragt.eu</a></p>
+          <p><a href="mailto:michiel@vandergragt.eu">Email</a></p>
         </div>
         <div className="contact-info-container">
           <img
