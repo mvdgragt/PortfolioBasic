@@ -43,13 +43,13 @@ function MyPortfolio() {
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://cardswithreduxtoolkit.netlify.app/"}}
+                onClick={() => {window.open=('https://cardswithreduxtoolkit.netlify.app/')}}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/mvdgragt/cardwithredux'"}}
+                onClick={() => {windows.open=('https://github.com/mvdgragt/cardwithredux')}}
               >
                 Live Demo
               </button>
