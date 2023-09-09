@@ -49,7 +49,7 @@ function MyPortfolio() {
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {windows.open=('https://github.com/mvdgragt/cardwithredux')}}
+                onClick={() => {window.open=('https://github.com/mvdgragt/cardwithredux')}}
               >
                 Live Demo
               </button>
