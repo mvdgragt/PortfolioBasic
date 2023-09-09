@@ -39,17 +39,17 @@ function MyPortfolio() {
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project Two</h2>
+            <h2 className="experience-sub-title project-title">E-Wallet</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/'"}}
+                onClick={() => {"location.href='https://cardswithreduxtoolkit.netlify.app/"}}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/'"}}
+                onClick={() => {"location.href='https://github.com/mvdgragt/cardwithredux'"}}
               >
                 Live Demo
               </button>
