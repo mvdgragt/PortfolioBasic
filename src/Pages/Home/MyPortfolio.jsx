@@ -55,25 +55,26 @@ function MyPortfolio() {
               </button>
             </div>
           </div>
+
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./img/project-3.png"
-                alt="Project 3"
+                src="./img/schoolapplications.png"
+                alt="E-wallet"
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project Three</h2>
+            <h2 className="experience-sub-title project-title">Assetmanager</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/'"}}
+                onClick={() => {window.open('https://github.com/mvdgragt/cardwithredux')}}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {"location.href='https://github.com/'"}}
+                onClick={() => {window.open('https://cardswithreduxtoolkit.netlify.app/')}}
               >
                 Live Demo
               </button>
