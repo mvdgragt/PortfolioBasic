@@ -11,7 +11,7 @@ function MyPortfolio() {
             <div className="article-container">
               <img
                 src="./img/schoolapplications.png"
-                alt="Project 1"
+                alt="School Applications"
                 className="project-img"
               />
             </div>
@@ -34,8 +34,8 @@ function MyPortfolio() {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./img/project-2.png"
-                alt="Project 2"
+                src="./img/Ewallet.png"
+                alt="E-Wallet"
                 className="project-img"
               />
             </div>
@@ -43,13 +43,13 @@ function MyPortfolio() {
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {window.open=('https://cardswithreduxtoolkit.netlify.app/')}}
+                onClick={() => {window.open('https://github.com/mvdgragt/cardwithredux')}}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {window.open=('https://github.com/mvdgragt/cardwithredux')}}
+                onClick={() => {window.open('https://cardswithreduxtoolkit.netlify.app/')}}
               >
                 Live Demo
               </button>
