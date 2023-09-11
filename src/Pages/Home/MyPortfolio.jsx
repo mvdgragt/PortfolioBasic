@@ -59,7 +59,7 @@ function MyPortfolio() {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./img/schoolapplications.png"
+                src="./img/assetmanager.png"
                 alt="E-wallet"
                 className="project-img"
               />
@@ -68,13 +68,13 @@ function MyPortfolio() {
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {window.open('https://github.com/mvdgragt/cardwithredux')}}
+                onClick={() => {window.open('https://github.com/mvdgragt/assetmanager-client')}}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => {window.open('https://cardswithreduxtoolkit.netlify.app/')}}
+                onClick={() => {window.open('https://assetmanager.vandergragt.eu/')}}
               >
                 Live Demo
               </button>
