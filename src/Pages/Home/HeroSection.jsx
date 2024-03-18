@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section id="profile">
     <div className="section__pic-container">
-      <img src="./img/Michiel_profil4.png" alt="John Doe profile picture" />
+      <img src="./img/Michiel_Profile.webp" alt="John Doe profile picture" />
     </div>
     <div className="section__text">
       <p className="section__text__p1">Hello, I'm</p>
@@ -32,7 +32,7 @@ function HeroSection() {
           src="./img/github.png"
           alt="My Github profile"
           className="icon"
-          onClick={() => {location.href='https://github.com/'}}
+          onClick={() => {location.href='https://github.com/mvdgragt'}}
         />
       </div>
     </div>

@@ -8,7 +8,7 @@ function AboutMe() {
     <div className="section-container">
       <div className="section__pic-container">
         <img
-          src="./img/about-pic.png"
+          src="./img/about-pic.webp"
           alt="Profile picture"
           className="about-pic"
         />
@@ -22,7 +22,9 @@ function AboutMe() {
               className="icon"
             />
             <h3>Experience</h3>
-            <p>10+ years <br />Fullstack Development</p>
+            <>
+            5+ years Freelance Web Development<br />
+            10+ years Teaching IB</>
           </div>
           <div className="details-container">
             <img
@@ -31,7 +33,7 @@ function AboutMe() {
               className="icon"
             />
             <h3>Education</h3>
-            <p>B.Sc. Bachelors Degree<br />B.Ed. Bachelors Degree</p>
+            <p>Associate degree in Web Development<br />B.Ed. Bachelors Degree</p>
           </div>
         </div>
         <div className="text-container">
