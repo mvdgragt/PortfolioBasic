@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support - FPA Expo</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --fg: #111827;
+        --muted: #6b7280;
+        --card: #f9fafb;
+        --border: #e5e7eb;
+        --link: #2563eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b1220;
+          --fg: #e5e7eb;
+          --muted: #9ca3af;
+          --card: #111827;
+          --border: #1f2937;
+          --link: #60a5fa;
+        }
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+          "Apple Color Emoji", "Segoe UI Emoji";
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      header {
+        margin-bottom: 24px;
+        padding: 20px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+      }
+      h1 {
+        margin: 0 0 8px 0;
+        font-size: 32px;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        margin: 0;
+        color: var(--muted);
+      }
+      h2 {
+        margin-top: 28px;
+        font-size: 20px;
+      }
+      h3 {
+        margin-top: 18px;
+        font-size: 16px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-top: 12px;
+      }
+      @media (min-width: 860px) {
+        .grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px;
+      }
+      .footer {
+        margin-top: 40px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .pill {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: transparent;
+        color: var(--muted);
+        font-size: 12px;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Support</h1>
+        <p class="meta">
+          Need help with FPA Expo? Start here. If you can’t find what you need, contact us and we’ll respond as soon as possible.
+        </p>
+      </header>
+ 
+      <h2>Contact</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:info@vandergragt.eu">info@vandergragt.eu</a>
+          </p>
+          <p class="meta">
+            Include your device model, iOS version, and what you were trying to do.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Privacy</h3>
+          <p>
+            Read our Privacy Policy:
+            <a href="privacy-policy.html">privacy-policy.html</a>
+          </p>
+          <p>
+            Short notice:
+            <a href="user-privacy-notice.html">user-privacy-notice.html</a>
+          </p>
+        </div>
+      </div>
+ 
+      <h2>FAQ</h2>
+ 
+      <div class="card">
+        <h3>Bluetooth timing gates / sensors aren’t connecting</h3>
+        <ul>
+          <li>Make sure Bluetooth is enabled on your device.</li>
+          <li>Keep the sensor close to your phone during pairing.</li>
+          <li>If you previously paired, try turning Bluetooth off and on again.</li>
+          <li>Restart the app and retry.</li>
+        </ul>
+        <p class="meta">
+          <span class="pill">Note</span>
+          Bluetooth is not supported in the iOS simulator. Use a physical iPhone/iPad.
+        </p>
+      </div>
+ 
+      <div class="card" style="margin-top: 14px;">
+        <h3>My time looks wrong</h3>
+        <ul>
+          <li>Ensure the sensor/gate is positioned correctly and has a clear line of sight.</li>
+          <li>Run a quick test pass to confirm the gate triggers as expected.</li>
+          <li>Make sure you fully clear the gate between passes.</li>
+        </ul>
+      </div>
+ 
+      <div class="card" style="margin-top: 14px;">
+        <h3>Where are my results saved?</h3>
+        <p>
+          Results are stored in the app so you can review history and compare against benchmarks.
+          If you reinstall the app, locally stored results may be removed.
+        </p>
+      </div>
+ 
+      <div class="card" style="margin-top: 14px;">
+        <h3>How do I report a bug?</h3>
+        <p>Email <a href="mailto:info@vandergragt.eu">info@vandergragt.eu</a> with:</p>
+        <ul>
+          <li>What you expected to happen</li>
+          <li>What actually happened</li>
+          <li>Steps to reproduce</li>
+          <li>Device model + iOS version</li>
+        </ul>
+      </div>
+ 
+      <div class="footer">© 2026 FPA Expo</div>
+    </main>
+  </body>
+</html>
+ 
+
